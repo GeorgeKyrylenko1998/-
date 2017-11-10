@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52B823F71FB5EA91006D0783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B823F61FB5EA91006D0783 /* AppDelegate.swift */; };
+		52B823F91FB5EA91006D0783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B823F81FB5EA91006D0783 /* ViewController.swift */; };
+		52B823FC1FB5EA92006D0783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B823FA1FB5EA92006D0783 /* Main.storyboard */; };
+		52B823FE1FB5EA93006D0783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B823FD1FB5EA93006D0783 /* Assets.xcassets */; };
+		52B824011FB5EA93006D0783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B823FF1FB5EA93006D0783 /* LaunchScreen.storyboard */; };
+		52B8240C1FB5EA95006D0783 /* _______________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B8240B1FB5EA95006D0783 /* _______________Tests.swift */; };
+		52B824171FB5EA95006D0783 /* _______________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B824161FB5EA95006D0783 /* _______________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52B824081FB5EA95006D0783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52B823EB1FB5EA8D006D0783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B823F21FB5EA8E006D0783;
+			remoteInfo = "Игровые новости";
+		};
+		52B824131FB5EA95006D0783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52B823EB1FB5EA8D006D0783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B823F21FB5EA8E006D0783;
+			remoteInfo = "Игровые новости";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52B823F31FB5EA8F006D0783 /* Игровые новости.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Игровые новости.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B823F61FB5EA91006D0783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52B823F81FB5EA91006D0783 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52B823FB1FB5EA92006D0783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52B823FD1FB5EA93006D0783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52B824001FB5EA93006D0783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52B824021FB5EA93006D0783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B824071FB5EA95006D0783 /* Игровые новостиTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Игровые новостиTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B8240B1FB5EA95006D0783 /* _______________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______________Tests.swift"; sourceTree = "<group>"; };
+		52B8240D1FB5EA95006D0783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B824121FB5EA95006D0783 /* Игровые новостиUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Игровые новостиUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B824161FB5EA95006D0783 /* _______________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______________UITests.swift"; sourceTree = "<group>"; };
+		52B824181FB5EA95006D0783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52B823F01FB5EA8E006D0783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B824041FB5EA95006D0783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B8240F1FB5EA95006D0783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52B823EA1FB5EA8C006D0783 = {
+			isa = PBXGroup;
+			children = (
+				52B823F51FB5EA90006D0783 /* Игровые новости */,
+				52B8240A1FB5EA95006D0783 /* Игровые новостиTests */,
+				52B824151FB5EA95006D0783 /* Игровые новостиUITests */,
+				52B823F41FB5EA8F006D0783 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52B823F41FB5EA8F006D0783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52B823F31FB5EA8F006D0783 /* Игровые новости.app */,
+				52B824071FB5EA95006D0783 /* Игровые новостиTests.xctest */,
+				52B824121FB5EA95006D0783 /* Игровые новостиUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52B823F51FB5EA90006D0783 /* Игровые новости */ = {
+			isa = PBXGroup;
+			children = (
+				52B823F61FB5EA91006D0783 /* AppDelegate.swift */,
+				52B823F81FB5EA91006D0783 /* ViewController.swift */,
+				52B823FA1FB5EA92006D0783 /* Main.storyboard */,
+				52B823FD1FB5EA93006D0783 /* Assets.xcassets */,
+				52B823FF1FB5EA93006D0783 /* LaunchScreen.storyboard */,
+				52B824021FB5EA93006D0783 /* Info.plist */,
+			);
+			path = "Игровые новости";
+			sourceTree = "<group>";
+		};
+		52B8240A1FB5EA95006D0783 /* Игровые новостиTests */ = {
+			isa = PBXGroup;
+			children = (
+				52B8240B1FB5EA95006D0783 /* _______________Tests.swift */,
+				52B8240D1FB5EA95006D0783 /* Info.plist */,
+			);
+			path = "Игровые новостиTests";
+			sourceTree = "<group>";
+		};
+		52B824151FB5EA95006D0783 /* Игровые новостиUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52B824161FB5EA95006D0783 /* _______________UITests.swift */,
+				52B824181FB5EA95006D0783 /* Info.plist */,
+			);
+			path = "Игровые новостиUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52B823F21FB5EA8E006D0783 /* Игровые новости */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B8241B1FB5EA95006D0783 /* Build configuration list for PBXNativeTarget "Игровые новости" */;
+			buildPhases = (
+				52B823EF1FB5EA8E006D0783 /* Sources */,
+				52B823F01FB5EA8E006D0783 /* Frameworks */,
+				52B823F11FB5EA8E006D0783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Игровые новости";
+			productName = "Игровые новости";
+			productReference = 52B823F31FB5EA8F006D0783 /* Игровые новости.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52B824061FB5EA95006D0783 /* Игровые новостиTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B8241E1FB5EA95006D0783 /* Build configuration list for PBXNativeTarget "Игровые новостиTests" */;
+			buildPhases = (
+				52B824031FB5EA95006D0783 /* Sources */,
+				52B824041FB5EA95006D0783 /* Frameworks */,
+				52B824051FB5EA95006D0783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52B824091FB5EA95006D0783 /* PBXTargetDependency */,
+			);
+			name = "Игровые новостиTests";
+			productName = "Игровые новостиTests";
+			productReference = 52B824071FB5EA95006D0783 /* Игровые новостиTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52B824111FB5EA95006D0783 /* Игровые новостиUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B824211FB5EA95006D0783 /* Build configuration list for PBXNativeTarget "Игровые новостиUITests" */;
+			buildPhases = (
+				52B8240E1FB5EA95006D0783 /* Sources */,
+				52B8240F1FB5EA95006D0783 /* Frameworks */,
+				52B824101FB5EA95006D0783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52B824141FB5EA95006D0783 /* PBXTargetDependency */,
+			);
+			name = "Игровые новостиUITests";
+			productName = "Игровые новостиUITests";
+			productReference = 52B824121FB5EA95006D0783 /* Игровые новостиUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52B823EB1FB5EA8D006D0783 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = MacBookPro;
+				TargetAttributes = {
+					52B823F21FB5EA8E006D0783 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					52B824061FB5EA95006D0783 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52B823F21FB5EA8E006D0783;
+					};
+					52B824111FB5EA95006D0783 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52B823F21FB5EA8E006D0783;
+					};
+				};
+			};
+			buildConfigurationList = 52B823EE1FB5EA8D006D0783 /* Build configuration list for PBXProject "Игровые новости" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52B823EA1FB5EA8C006D0783;
+			productRefGroup = 52B823F41FB5EA8F006D0783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52B823F21FB5EA8E006D0783 /* Игровые новости */,
+				52B824061FB5EA95006D0783 /* Игровые новостиTests */,
+				52B824111FB5EA95006D0783 /* Игровые новостиUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52B823F11FB5EA8E006D0783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B824011FB5EA93006D0783 /* LaunchScreen.storyboard in Resources */,
+				52B823FE1FB5EA93006D0783 /* Assets.xcassets in Resources */,
+				52B823FC1FB5EA92006D0783 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B824051FB5EA95006D0783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B824101FB5EA95006D0783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52B823EF1FB5EA8E006D0783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B823F91FB5EA91006D0783 /* ViewController.swift in Sources */,
+				52B823F71FB5EA91006D0783 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B824031FB5EA95006D0783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B8240C1FB5EA95006D0783 /* _______________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B8240E1FB5EA95006D0783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B824171FB5EA95006D0783 /* _______________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52B824091FB5EA95006D0783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52B823F21FB5EA8E006D0783 /* Игровые новости */;
+			targetProxy = 52B824081FB5EA95006D0783 /* PBXContainerItemProxy */;
+		};
+		52B824141FB5EA95006D0783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52B823F21FB5EA8E006D0783 /* Игровые новости */;
+			targetProxy = 52B824131FB5EA95006D0783 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52B823FA1FB5EA92006D0783 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B823FB1FB5EA92006D0783 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52B823FF1FB5EA93006D0783 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B824001FB5EA93006D0783 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52B824191FB5EA95006D0783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52B8241A1FB5EA95006D0783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52B8241C1FB5EA95006D0783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4BH94TG65;
+				INFOPLIST_FILE = "Игровые новости/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-dinozawrua.---------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52B8241D1FB5EA95006D0783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4BH94TG65;
+				INFOPLIST_FILE = "Игровые новости/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-dinozawrua.---------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52B8241F1FB5EA95006D0783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4BH94TG65;
+				INFOPLIST_FILE = "Игровые новостиTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-dinozawrua.---------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Игровые новости.app/Игровые новости";
+			};
+			name = Debug;
+		};
+		52B824201FB5EA95006D0783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4BH94TG65;
+				INFOPLIST_FILE = "Игровые новостиTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-dinozawrua.---------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Игровые новости.app/Игровые новости";
+			};
+			name = Release;
+		};
+		52B824221FB5EA95006D0783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4BH94TG65;
+				INFOPLIST_FILE = "Игровые новостиUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-dinozawrua.---------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Игровые новости";
+			};
+			name = Debug;
+		};
+		52B824231FB5EA95006D0783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4BH94TG65;
+				INFOPLIST_FILE = "Игровые новостиUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-dinozawrua.---------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Игровые новости";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52B823EE1FB5EA8D006D0783 /* Build configuration list for PBXProject "Игровые новости" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B824191FB5EA95006D0783 /* Debug */,
+				52B8241A1FB5EA95006D0783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B8241B1FB5EA95006D0783 /* Build configuration list for PBXNativeTarget "Игровые новости" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B8241C1FB5EA95006D0783 /* Debug */,
+				52B8241D1FB5EA95006D0783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B8241E1FB5EA95006D0783 /* Build configuration list for PBXNativeTarget "Игровые новостиTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B8241F1FB5EA95006D0783 /* Debug */,
+				52B824201FB5EA95006D0783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B824211FB5EA95006D0783 /* Build configuration list for PBXNativeTarget "Игровые новостиUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B824221FB5EA95006D0783 /* Debug */,
+				52B824231FB5EA95006D0783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52B823EB1FB5EA8D006D0783 /* Project object */;
+}
