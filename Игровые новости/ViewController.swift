@@ -3,33 +3,51 @@ import Foundation
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
-  
+    
     @IBOutlet weak var tableview: UITableView!
     
+    var topImgArray = [UIImageView]()
+    
     var news : [NewsItem]? = []
+    var topNews : [NewsItem]? = []
     override func viewDidLoad() {
         super.viewDidLoad()
         LoadJson();
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "newsCell", for: indexPath) as! ArticleCell
-        cell.title.text = news?[indexPath.item].name
-        var link = news?[indexPath.item].link
-        var linkForShow = ""
-        var count = 0
-        for t in link!{
-            if t == "/"{
-                count+=1
-                continue
-            }
-            if count>=2 && count<3{
-                linkForShow+=String(t)
-            }
+        if indexPath.item==0{
+            let cell = tableView.dequeueReusableCell(withIdentifier: "topNewsCell", for: indexPath) as! TopNewsCell
+            
+            cell.news = topNews!
+            cell.topNews = topImgArray
+            cell.updateTop()
+            return cell
         }
-        cell.imgCell.downloadImage(from: (self.news?[indexPath.item].cover!)!)
-        cell.link.text = linkForShow
-        return cell
+        else{
+            let cell = tableView.dequeueReusableCell(withIdentifier: "newsCell", for: indexPath) as! ArticleCell
+            cell.title.text = news?[indexPath.item-1].name
+            var link = news?[indexPath.item-1].link
+            var linkForShow = ""
+            var count = 0
+            for t in link!{
+                if t == "/"{
+                    count+=1
+                    continue
+                }
+                if count>=2 && count<3{
+                    linkForShow+=String(t)
+                }
+            }
+            linkForShow+=" - "
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "dd.MM.yyyy"
+            linkForShow += dateFormatter.string(from: (news?[indexPath.item-1].createdAt)!)
+            cell.imgCell.downloadImage(from: (self.news?[indexPath.item-1].cover!)!)
+            cell.link.text = linkForShow
+            return cell
+            
+        }
     }
     
     func LoadJson( )
@@ -51,6 +69,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     {
                         let newsItem :NewsItem = try NewsItem(app_views: item["app_views"], autotop: item["autotop"], comments: item["comments"], cover: item["cover"], createdAt: item["createdAt"], date: item["date"], description: item["description"], id: item["id"], link: item["link"], localImage: item["localImage"], name: item["name"], platformIds: item["platformIds"], previewId: item["previewId"], previewLink: item["previewLink"], removed: item["removed"], sourceId: item["sourceId"], source_views: item["source_views"], top: item["top"], updatedAt: item["updatedAt"], views: item["views"])
                         self.news?.append(newsItem)
+                        
+                        var img = UIImageView()
+                        img.downloadImage(from: newsItem.cover!)
+                        
+                        if newsItem.top!{
+                            self.topImgArray.append(img)
+                            self.topNews?.append(newsItem)
+                        }
                         DispatchQueue.main.async {
                             self.tableview.reloadData()
                         }
@@ -69,7 +95,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.news?.count ?? 0
+        return (self.news?.count)!+1 ?? 0
     }
 }
 

@@ -19,7 +19,7 @@ class NewsItem
     var removed:Int?
     var sourceId:Int?
     var source_views:Int?
-    var top:Int?
+    var top:Bool?
     var updatedAt:Date?
     var views:Int?
     
@@ -56,7 +56,7 @@ class NewsItem
         self.removed = removed as? Int
         self.sourceId = sourceId as? Int
         self.source_views = source_views as?Int
-        self.top = top as? Int
+        self.top = top as? Bool
         
         var dateUpdate = updatedAt as? String ?? ""
         self.updatedAt = dateFormatter.date(from: dateUpdate)

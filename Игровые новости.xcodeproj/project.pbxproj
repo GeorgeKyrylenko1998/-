@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		522644B91FBAEADD00394AD2 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522644B81FBAEADD00394AD2 /* ArticleCell.swift */; };
+		522884AA1FBCBDA200176619 /* TopNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522884A91FBCBDA100176619 /* TopNewsCell.swift */; };
 		52B823F71FB5EA91006D0783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B823F61FB5EA91006D0783 /* AppDelegate.swift */; };
 		52B823F91FB5EA91006D0783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B823F81FB5EA91006D0783 /* ViewController.swift */; };
 		52B823FC1FB5EA92006D0783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B823FA1FB5EA92006D0783 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		522644B81FBAEADD00394AD2 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		522884A91FBCBDA100176619 /* TopNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNewsCell.swift; sourceTree = "<group>"; };
 		52B823F31FB5EA8F006D0783 /* Игровые новости.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Игровые новости.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B823F61FB5EA91006D0783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52B823F81FB5EA91006D0783 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				52B823FD1FB5EA93006D0783 /* Assets.xcassets */,
 				52B824021FB5EA93006D0783 /* Info.plist */,
 				522644B81FBAEADD00394AD2 /* ArticleCell.swift */,
+				522884A91FBCBDA100176619 /* TopNewsCell.swift */,
 			);
 			path = "Игровые новости";
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B823F91FB5EA91006D0783 /* ViewController.swift in Sources */,
+				522884AA1FBCBDA200176619 /* TopNewsCell.swift in Sources */,
 				52B824251FB668BA006D0783 /* NewsItem.swift in Sources */,
 				52B823F71FB5EA91006D0783 /* AppDelegate.swift in Sources */,
 				522644B91FBAEADD00394AD2 /* ArticleCell.swift in Sources */,
